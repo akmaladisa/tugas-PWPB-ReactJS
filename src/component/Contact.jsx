@@ -1,6 +1,6 @@
 import { InputGroup, Form, Container, Row, Col, Button } from "react-bootstrap"
 
-const Contact = () => {
+export default () => {
 
     return (
         <Container>
@@ -26,5 +26,3 @@ const Contact = () => {
         </Container>
     )
 }
-
-export default Contact

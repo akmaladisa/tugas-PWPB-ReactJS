@@ -6,7 +6,7 @@ import theWalkingDead from '../asset/best/theWalkingDead.jpg'
 import thief from '../asset/best/thief.jpg'
 import untilDawn from '../asset/best/untilDawn.jpg'
 
-const BestGame = () => {
+export default () => {
     return (
         <div>
             <Container>
@@ -115,5 +115,3 @@ const BestGame = () => {
         </div>
     )
 }
-
-export default BestGame

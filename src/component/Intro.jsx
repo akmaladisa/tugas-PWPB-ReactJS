@@ -1,6 +1,6 @@
 import {Container, Row, Col, Button} from "react-bootstrap"
 
-const Intro = () => {
+export default () => {
     return (
         <div className="intro">
             <Container className="text-white text-center d-flex justify-content-center aligh-items-center">
@@ -17,5 +17,3 @@ const Intro = () => {
         </div>
     )
 }
-
-export default Intro;

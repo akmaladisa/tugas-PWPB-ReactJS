@@ -6,7 +6,7 @@ import olliworld from '../asset/trending/olliworld.jpg'
 import valorant from '../asset/trending/valorant.jpg'
 import wow from '../asset/trending/wow.jpg'
 
-const TrendGame = () => {
+export default () => {
     return (
         <div>
             <Container>
@@ -115,5 +115,3 @@ const TrendGame = () => {
         </div>
     )
 }
-
-export default TrendGame

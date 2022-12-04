@@ -1,6 +1,6 @@
 import {Navbar, Nav, Container} from 'react-bootstrap'
 
-const NavigationBar = () => {
+export default () => {
     return (
         <div>
             <Navbar bg="dark" variant="dark" fixed="top">
@@ -16,5 +16,3 @@ const NavigationBar = () => {
         </div>
     )
 }
-
-export default NavigationBar
